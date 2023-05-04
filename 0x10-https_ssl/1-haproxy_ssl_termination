@@ -46,5 +46,5 @@ frontend moroyal-frontend-https
 
 backend moroyal-backend
         balance roundrobin
-        server 52736-web-01 54.236.47.58 check
-        server 52736-web-02 52.91.183.197 check
+        server 177927-web-01 54.236.47.58:80 check
+        server 177927-web-02 52.91.183.197:80 check
